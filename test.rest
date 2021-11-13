@@ -1,0 +1,23 @@
+GET http://localhost:8000/api/colleges
+
+###
+
+POST http://localhost:8000/api/colleges/createcollege
+
+{
+            "name":"west college",
+            "location":{
+                "state":"karnataka",
+                "country":"India",
+                "city":"Bangalore",
+                "address":"wunrf23094fj2349fj2934"
+            },
+            "comments":["akshay","hfhgfdhgfdxgfdxgfxsfg"],
+            "ratings":5,
+            "stars":{
+    "star1":3,
+    "star2":2,
+    "star3":1,
+    "star4":5     
+        }
+}
