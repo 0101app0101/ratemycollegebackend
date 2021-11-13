@@ -1,7 +1,9 @@
 GET http://localhost:8000/api/colleges
 
 ###
+GET http://localhost:8000/api/colleges/618feb2e9eb3e779b97e1c09
 
+###
 POST http://localhost:8000/api/colleges/createcollege
 
 {
@@ -21,3 +23,4 @@ POST http://localhost:8000/api/colleges/createcollege
     "star4":5     
         }
 }
+
