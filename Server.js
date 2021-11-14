@@ -8,7 +8,3 @@ app.listen(8000)
 
 app.use(express.json())
 app.use("/api/colleges", collegerouter)
-
-
-
-

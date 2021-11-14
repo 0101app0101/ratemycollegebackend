@@ -1,6 +1,9 @@
 const express = require('express')
 const router = express.Router()
 const College = require('../model/college')
+
+
+
 //get all colleges
 router.get('/', async (req,res) => {
    try{
@@ -13,6 +16,7 @@ router.get('/', async (req,res) => {
    }
 })
 
+//get college by id
 router.get('/:id', async (req,res) => {
     try{
  
@@ -24,6 +28,7 @@ router.get('/:id', async (req,res) => {
     }
  })
 
+ //add new college
 router.post('/createcollege', async (req,res)=> {
 
 
@@ -56,11 +61,11 @@ router.post('/createcollege', async (req,res)=> {
     }
 })
 
+//update college
 router.put('/addreview',async (req,res)=>{
 
     const updatedCollege = {
-
-        $push:{comments:req.body.comments},
+       $push:{comments:req.body.comments},
         ratings:req.body.ratings,
         stars:{
             star1:req.body.stars.star1,
@@ -71,19 +76,13 @@ router.put('/addreview',async (req,res)=>{
     
     } 
 
-        const updatecolleges = await College.findByIdAndUpdate(req.body.id,updatedCollege,
-            function (err, docs) {
-                if (err){
-                    res.status(500).json({errormsg:err})
+      await College.findByIdAndUpdate(req.body.id, updatedCollege,{new: true}, (err, updatecolleges) => {
+                try{
+                       res.json(updatecolleges).status(200)
                 }
-                else{
-                    res.json({updated:docs}).status(200)
-                    
-                    
-                    
+                catch(err){
+                    res.status(500).json({errormsg:err}) 
                 }})
-
-  
     })
 
 

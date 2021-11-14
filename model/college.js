@@ -39,9 +39,6 @@ const college = new mongoose.Schema({
     location: {
         type:location
     },
-    // reviews:{
-    //     type:Number
-    // },
     comments: {
         type:Array
     },
