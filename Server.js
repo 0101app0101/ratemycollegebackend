@@ -2,9 +2,9 @@ const express = require('express')
 const ConnectDB = require("./ConnectDB")
 const collegerouter = require('./routes/collegerouter')
 const app = express()
-
+const cors = require('cors')
 app.listen(8000)
-
+app.use(cors())
 
 app.use(express.json())
 app.use("/api/colleges", collegerouter)
