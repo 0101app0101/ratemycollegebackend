@@ -31,8 +31,6 @@ router.get('/:id', async (req,res) => {
  //add new college
 router.post('/createcollege', async (req,res)=> {
 
-
-
         const college = new College({
             name:req.body.name,
             location:{
