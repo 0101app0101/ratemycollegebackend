@@ -17,7 +17,7 @@ router.get('/names', async (req,res) => {
 
 router.get('/colleges/:id', async (req,res)=>{
     try{
-    const colleges =  await College.find({"location.state.code":"AN"})
+    const colleges =  await College.find({"location.state.code":req.params.id})
     res.json(colleges).status(200)
 
     }catch(e){
