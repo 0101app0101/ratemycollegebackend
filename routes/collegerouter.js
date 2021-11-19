@@ -1,17 +1,31 @@
 const express = require('express')
 const router = express.Router()
 const College = require('../model/college')
+const Metadata = require('../model/metadata')
 
 //get all colleges
 router.get('/', async (req,res) => {
    try{
-
     const colleges = await College.find()
     res.json(colleges).status(200)
 
    }catch (e){
     res.status(500).json({errormsg:e})
    }
+})
+
+//get popular colleges
+router.get('/popular', async (req,res) => {
+    try{
+    const popularcolleges = await Metadata.findOne(
+        { },
+       { popularColleges: 1, _id: 0}
+    )
+    res.json(popularcolleges).status(200)
+
+    }catch(e){
+        res.status(500).json({errormsg:e})
+    }
 })
 
 //get college by id
@@ -81,5 +95,18 @@ router.put('/addreview',async (req,res)=>{
                 }})
     })
 
+
+//runs every hour to update popular colleges to save exec time 
+setInterval(updatepopularcolleges,100)
+async function updatepopularcolleges() {
+
+    try{
+         const popularcolleges = (await College.find()).slice(0,12).sort((a,b)=>(b.comments.length - a.comments.length))
+         const popularCollegesupdate =  await Metadata.updateOne({popularColleges:popularcolleges})
+    }catch (e){
+         console.log(e)
+        }
+     
+}
 
 module.exports = router

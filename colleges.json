@@ -1,142 +1,497 @@
-[{
-    
-    "name": "east west college",
-    "location": {
-        "country": "India",
-        "state": {
-            "code": "AN",
-            "name": "Andaman and Nicobar Islands"
+[
+    {
+        "name": "east west college",
+        "location": {
+            "country": "India",
+            "state": {
+                "code": "AN",
+                "name": "Andaman and Nicobar Islands"
+            },
+            "city": "Bangalore",
+            "address": "wunrf23094fj2349fj2934"
         },
-        "city": "Bangalore",
-        "address": "wunrf23094fj2349fj2934"
+        "comments": [
+            "1234567890",
+            "lkjhgfdsa",
+            "lkjhgfdsa",
+            "wertyuioiurtyui",
+            "wertyuioiurtyui",
+            "wertyuioiurtyui",
+            "qwertyuiop",
+            "zxcvbnm,",
+            "zxcvbnm,",
+            "zxcvbnm,",
+            "zxcvbnm,",
+            "zxcvbnm,",
+            "zxcvbnm,",
+            "qwefgbnkjhgfdsdfghjkhgfdghjksdfghjk",
+            "qwefgbnkjhgfdsdfghjkhgfdghjksdfghjk",
+            "qwefgbnkjhgfdsdfghjkhgfdghjksdfghjk",
+            "2"
+        ],
+        "ratings": 7,
+        "stars": {
+            "star1": 1,
+            "star2": 9,
+            "star3": 9,
+            "star4": 5
+        }
     },
-    "comments": ["1234567890", "lkjhgfdsa", "lkjhgfdsa", "wertyuioiurtyui", "wertyuioiurtyui", "wertyuioiurtyui", "qwertyuiop", "zxcvbnm,", "zxcvbnm,", "zxcvbnm,", "zxcvbnm,", "zxcvbnm,", "zxcvbnm,", "qwefgbnkjhgfdsdfghjkhgfdghjksdfghjk", "qwefgbnkjhgfdsdfghjkhgfdghjksdfghjk", "qwefgbnkjhgfdsdfghjkhgfdghjksdfghjk", "2"],
-    "ratings": 7,
-    "stars": {
-        "star1": 1,
-        "star2": 9,
-        "star3": 9,
-        "star4": 5
-    }
-},
-{
-    
-    "name": "east west college",
-    "location": {
-        "country": "India",
-        "state":  {
-            "code": "AP",
-            "name": "Andhra Pradesh"
+    {
+        "name": "east west college",
+        "location": {
+            "country": "India",
+            "state": {
+                "code": "AP",
+                "name": "Andhra Pradesh"
+            },
+            "city": "Bangalore",
+            "address": "wunrf23094fj2349fj2934"
         },
-        "city": "Bangalore",
-        "address": "wunrf23094fj2349fj2934"
+        "comments": [
+            "1234567890",
+            "lkjhgfdsa",
+            "lkjhgfdsa",
+            "wertyuioiurtyui",
+            "wertyuioiurtyui",
+            "wertyuioiurtyui",
+            "qwertyuiop",
+            "zxcvbnm,",
+            "zxcvbnm,",
+            "zxcvbnm,",
+            "zxcvbnm,",
+            "zxcvbnm,",
+            "zxcvbnm,",
+            "qwefgbnkjhgfdsdfghjkhgfdghjksdfghjk",
+            "qwefgbnkjhgfdsdfghjkhgfdghjksdfghjk",
+            "qwefgbnkjhgfdsdfghjkhgfdghjksdfghjk",
+            "2"
+        ],
+        "ratings": 7,
+        "stars": {
+            "star1": 1,
+            "star2": 9,
+            "star3": 9,
+            "star4": 5
+        }
     },
-    "comments": ["1234567890", "lkjhgfdsa", "lkjhgfdsa", "wertyuioiurtyui", "wertyuioiurtyui", "wertyuioiurtyui", "qwertyuiop", "zxcvbnm,", "zxcvbnm,", "zxcvbnm,", "zxcvbnm,", "zxcvbnm,", "zxcvbnm,", "qwefgbnkjhgfdsdfghjkhgfdghjksdfghjk", "qwefgbnkjhgfdsdfghjkhgfdghjksdfghjk", "qwefgbnkjhgfdsdfghjkhgfdghjksdfghjk", "2"],
-    "ratings": 7,
-    "stars": {
-        "star1": 1,
-        "star2": 9,
-        "star3": 9,
-        "star4": 5
-    }
-},{
-    
-    "name": "east west college",
-    "location": {
-        "country": "India",
-        "state": {
-            "code": "AR",
-            "name": "Arunachal Pradesh"
+    {
+        "name": "west college",
+        "location": {
+            "country": "India",
+            "state": {
+                "code": "AR",
+                "name": "Arunachal Pradesh"
+            },
+            "city": "Bangalore",
+            "address": "wunrf23094fj2349fj2934"
         },
-        "city": "Bangalore",
-        "address": "wunrf23094fj2349fj2934"
+        "comments": [
+            "1234567890",
+            "lkjhgfdsa",
+            "lkjhgfdsa",
+            "wertyuioiurtyui",
+            "wertyuioiurtyui",
+            "wertyuioiurtyui",
+            "qwertyuiop",
+            "zxcvbnm,",
+            "zxcvbnm,",
+            "zxcvbnm,",
+            "zxcvbnm,",
+            "zxcvbnm,",
+            "zxcvbnm,",
+            "qwefgbnkjhgfdsdfghjkhgfdghjksdfghjk",
+            "qwefgbnkjhgfdsdfghjkhgfdghjksdfghjk",
+            "qwefgbnkjhgfdsdfghjkhgfdghjksdfghjk",
+            "2",
+            "extra"
+        ],
+        "ratings": 7,
+        "stars": {
+            "star1": 1,
+            "star2": 9,
+            "star3": 9,
+            "star4": 5
+        }
     },
-    "comments": ["1234567890", "lkjhgfdsa", "lkjhgfdsa", "wertyuioiurtyui", "wertyuioiurtyui", "wertyuioiurtyui", "qwertyuiop", "zxcvbnm,", "zxcvbnm,", "zxcvbnm,", "zxcvbnm,", "zxcvbnm,", "zxcvbnm,", "qwefgbnkjhgfdsdfghjkhgfdghjksdfghjk", "qwefgbnkjhgfdsdfghjkhgfdghjksdfghjk", "qwefgbnkjhgfdsdfghjkhgfdghjksdfghjk", "2"],
-    "ratings": 7,
-    "stars": {
-        "star1": 1,
-        "star2": 9,
-        "star3": 9,
-        "star4": 5
-    }
-},{
-    
-    "name": "east west college",
-    "location": {
-        "country": "India",
-        "state": {
-            "code": "ML",
-            "name": "Meghalaya"
+    {
+        "name": "east west college",
+        "location": {
+            "country": "India",
+            "state": {
+                "code": "ML",
+                "name": "Meghalaya"
+            },
+            "city": "Bangalore",
+            "address": "wunrf23094fj2349fj2934"
         },
-        "city": "Bangalore",
-        "address": "wunrf23094fj2349fj2934"
+        "comments": [
+            "1234567890",
+            "lkjhgfdsa",
+            "lkjhgfdsa",
+            "wertyuioiurtyui",
+            "wertyuioiurtyui",
+            "wertyuioiurtyui",
+            "qwertyuiop",
+            "zxcvbnm,",
+            "zxcvbnm,",
+            "zxcvbnm,",
+            "zxcvbnm,",
+            "zxcvbnm,",
+            "zxcvbnm,",
+            "qwefgbnkjhgfdsdfghjkhgfdghjksdfghjk",
+            "qwefgbnkjhgfdsdfghjkhgfdghjksdfghjk",
+            "qwefgbnkjhgfdsdfghjkhgfdghjksdfghjk",
+            "2"
+        ],
+        "ratings": 7,
+        "stars": {
+            "star1": 1,
+            "star2": 9,
+            "star3": 9,
+            "star4": 5
+        }
     },
-    "comments": ["1234567890", "lkjhgfdsa", "lkjhgfdsa", "wertyuioiurtyui", "wertyuioiurtyui", "wertyuioiurtyui", "qwertyuiop", "zxcvbnm,", "zxcvbnm,", "zxcvbnm,", "zxcvbnm,", "zxcvbnm,", "zxcvbnm,", "qwefgbnkjhgfdsdfghjkhgfdghjksdfghjk", "qwefgbnkjhgfdsdfghjkhgfdghjksdfghjk", "qwefgbnkjhgfdsdfghjkhgfdghjksdfghjk", "2"],
-    "ratings": 7,
-    "stars": {
-        "star1": 1,
-        "star2": 9,
-        "star3": 9,
-        "star4": 5
-    }
-},{
-    
-    "name": "east west college",
-    "location": {
-        "country": "India",
-        "state":{
-            "code": "KA",
-            "name": "Karnataka"
+    {
+        "name": "east west college",
+        "location": {
+            "country": "India",
+            "state": {
+                "code": "KA",
+                "name": "Karnataka"
+            },
+            "city": "Bangalore",
+            "address": "wunrf23094fj2349fj2934"
         },
-        "city": "Bangalore",
-        "address": "wunrf23094fj2349fj2934"
+        "comments": [
+            "1234567890",
+            "lkjhgfdsa",
+            "lkjhgfdsa",
+            "wertyuioiurtyui",
+            "wertyuioiurtyui",
+            "wertyuioiurtyui",
+            "qwertyuiop",
+            "zxcvbnm,",
+            "zxcvbnm,",
+            "zxcvbnm,",
+            "zxcvbnm,",
+            "zxcvbnm,",
+            "zxcvbnm,",
+            "qwefgbnkjhgfdsdfghjkhgfdghjksdfghjk",
+            "qwefgbnkjhgfdsdfghjkhgfdghjksdfghjk",
+            "qwefgbnkjhgfdsdfghjkhgfdghjksdfghjk",
+            "2"
+        ],
+        "ratings": 7,
+        "stars": {
+            "star1": 1,
+            "star2": 9,
+            "star3": 9,
+            "star4": 5
+        }
     },
-    "comments": ["1234567890", "lkjhgfdsa", "lkjhgfdsa", "wertyuioiurtyui", "wertyuioiurtyui", "wertyuioiurtyui", "qwertyuiop", "zxcvbnm,", "zxcvbnm,", "zxcvbnm,", "zxcvbnm,", "zxcvbnm,", "zxcvbnm,", "qwefgbnkjhgfdsdfghjkhgfdghjksdfghjk", "qwefgbnkjhgfdsdfghjkhgfdghjksdfghjk", "qwefgbnkjhgfdsdfghjkhgfdghjksdfghjk", "2"],
-    "ratings": 7,
-    "stars": {
-        "star1": 1,
-        "star2": 9,
-        "star3": 9,
-        "star4": 5
-    }
-},{
-    
-    "name": "east west college",
-    "location": {
-        "country": "India",
-        "state": {
-            "code": "AN",
-            "name": "Andaman and Nicobar Islands"
+    {
+        "name": "east west college",
+        "location": {
+            "country": "India",
+            "state": {
+                "code": "AN",
+                "name": "Andaman and Nicobar Islands"
+            },
+            "city": "Bangalore",
+            "address": "wunrf23094fj2349fj2934"
         },
-        "city": "Bangalore",
-        "address": "wunrf23094fj2349fj2934"
+        "comments": [
+            "1234567890",
+            "lkjhgfdsa",
+            "lkjhgfdsa",
+            "wertyuioiurtyui",
+            "wertyuioiurtyui",
+            "wertyuioiurtyui",
+            "qwertyuiop",
+            "zxcvbnm,",
+            "zxcvbnm,",
+            "zxcvbnm,",
+            "zxcvbnm,",
+            "zxcvbnm,",
+            "zxcvbnm,",
+            "qwefgbnkjhgfdsdfghjkhgfdghjksdfghjk",
+            "qwefgbnkjhgfdsdfghjkhgfdghjksdfghjk",
+            "qwefgbnkjhgfdsdfghjkhgfdghjksdfghjk",
+            "2"
+        ],
+        "ratings": 7,
+        "stars": {
+            "star1": 1,
+            "star2": 9,
+            "star3": 9,
+            "star4": 5
+        }
     },
-    "comments": ["1234567890", "lkjhgfdsa", "lkjhgfdsa", "wertyuioiurtyui", "wertyuioiurtyui", "wertyuioiurtyui", "qwertyuiop", "zxcvbnm,", "zxcvbnm,", "zxcvbnm,", "zxcvbnm,", "zxcvbnm,", "zxcvbnm,", "qwefgbnkjhgfdsdfghjkhgfdghjksdfghjk", "qwefgbnkjhgfdsdfghjkhgfdghjksdfghjk", "qwefgbnkjhgfdsdfghjkhgfdghjksdfghjk", "2"],
-    "ratings": 7,
-    "stars": {
-        "star1": 1,
-        "star2": 9,
-        "star3": 9,
-        "star4": 5
-    }
-},{
-    
-    "name": "east west college",
-    "location": {
-        "country": "India",
-        "state": {
-            "code": "MH",
-            "name": "Maharashtra"
+    {
+        "name": "east west college",
+        "location": {
+            "country": "India",
+            "state": {
+                "code": "MH",
+                "name": "Maharashtra"
+            },
+            "city": "Bangalore",
+            "address": "wunrf23094fj2349fj2934"
         },
-        "city": "Bangalore",
-        "address": "wunrf23094fj2349fj2934"
+        "comments": [
+            "1234567890",
+            "lkjhgfdsa",
+            "lkjhgfdsa",
+            "wertyuioiurtyui",
+            "wertyuioiurtyui",
+            "wertyuioiurtyui",
+            "qwertyuiop",
+            "zxcvbnm,",
+            "zxcvbnm,",
+            "zxcvbnm,",
+            "zxcvbnm,",
+            "zxcvbnm,",
+            "zxcvbnm,",
+            "qwefgbnkjhgfdsdfghjkhgfdghjksdfghjk",
+            "qwefgbnkjhgfdsdfghjkhgfdghjksdfghjk",
+            "qwefgbnkjhgfdsdfghjkhgfdghjksdfghjk",
+            "2"
+        ],
+        "ratings": 7,
+        "stars": {
+            "star1": 1,
+            "star2": 9,
+            "star3": 9,
+            "star4": 5
+        }
     },
-    "comments": ["1234567890", "lkjhgfdsa", "lkjhgfdsa", "wertyuioiurtyui", "wertyuioiurtyui", "wertyuioiurtyui", "qwertyuiop", "zxcvbnm,", "zxcvbnm,", "zxcvbnm,", "zxcvbnm,", "zxcvbnm,", "zxcvbnm,", "qwefgbnkjhgfdsdfghjkhgfdghjksdfghjk", "qwefgbnkjhgfdsdfghjkhgfdghjksdfghjk", "qwefgbnkjhgfdsdfghjkhgfdghjksdfghjk", "2"],
-    "ratings": 7,
-    "stars": {
-        "star1": 1,
-        "star2": 9,
-        "star3": 9,
-        "star4": 5
+    {
+        "name": "east west college",
+        "location": {
+            "country": "India",
+            "state": {
+                "code": "DD",
+                "name": "Daman and Diu"
+            },
+            "city": "Bangalore",
+            "address": "wunrf23094fj2349fj2934"
+        },
+        "comments": [
+            "1234567890",
+            "lkjhgfdsa",
+            "lkjhgfdsa",
+            "wertyuioiurtyui",
+            "wertyuioiurtyui",
+            "wertyuioiurtyui",
+            "qwertyuiop",
+            "zxcvbnm,",
+            "zxcvbnm,",
+            "zxcvbnm,",
+            "zxcvbnm,",
+            "zxcvbnm,",
+            "zxcvbnm,",
+            "qwefgbnkjhgfdsdfghjkhgfdghjksdfghjk",
+            "qwefgbnkjhgfdsdfghjkhgfdghjksdfghjk",
+            "qwefgbnkjhgfdsdfghjkhgfdghjksdfghjk",
+            "2"
+        ],
+        "ratings": 7,
+        "stars": {
+            "star1": 1,
+            "star2": 9,
+            "star3": 9,
+            "star4": 5
+        }
+    },
+    {
+        "name": "east west college",
+        "location": {
+            "country": "India",
+            "state": {
+                "code": "DL",
+                "name": "Delhi"
+            },
+            "city": "Bangalore",
+            "address": "wunrf23094fj2349fj2934"
+        },
+        "comments": [
+            "1234567890",
+            "lkjhgfdsa",
+            "lkjhgfdsa",
+            "wertyuioiurtyui",
+            "wertyuioiurtyui",
+            "wertyuioiurtyui",
+            "qwertyuiop",
+            "zxcvbnm,",
+            "zxcvbnm,",
+            "zxcvbnm,",
+            "zxcvbnm,",
+            "zxcvbnm,",
+            "zxcvbnm,",
+            "qwefgbnkjhgfdsdfghjkhgfdghjksdfghjk",
+            "qwefgbnkjhgfdsdfghjkhgfdghjksdfghjk",
+            "qwefgbnkjhgfdsdfghjkhgfdghjksdfghjk",
+            "2"
+        ],
+        "ratings": 7,
+        "stars": {
+            "star1": 1,
+            "star2": 9,
+            "star3": 9,
+            "star4": 5
+        }
+    },
+    {
+        "name": "east west college",
+        "location": {
+            "country": "India",
+            "state": {
+                "code": "GA",
+                "name": "Goa"
+            },
+            "city": "Bangalore",
+            "address": "wunrf23094fj2349fj2934"
+        },
+        "comments": [
+            "1234567890",
+            "lkjhgfdsa",
+            "lkjhgfdsa",
+            "wertyuioiurtyui",
+            "wertyuioiurtyui",
+            "wertyuioiurtyui",
+            "qwertyuiop",
+            "zxcvbnm,",
+            "zxcvbnm,",
+            "zxcvbnm,",
+            "zxcvbnm,",
+            "zxcvbnm,",
+            "zxcvbnm,",
+            "qwefgbnkjhgfdsdfghjkhgfdghjksdfghjk",
+            "qwefgbnkjhgfdsdfghjkhgfdghjksdfghjk",
+            "qwefgbnkjhgfdsdfghjkhgfdghjksdfghjk",
+            "2"
+        ],
+        "ratings": 7,
+        "stars": {
+            "star1": 1,
+            "star2": 9,
+            "star3": 9,
+            "star4": 5
+        }
+    },
+    {
+        "name": "east west college",
+        "location": {
+            "country": "India",
+            "state": {
+                "code": "HR",
+                "name": "Haryana"
+            },
+            "city": "Bangalore",
+            "address": "wunrf23094fj2349fj2934"
+        },
+        "comments": [
+            "1234567890",
+            "lkjhgfdsa",
+            "lkjhgfdsa",
+            "wertyuioiurtyui",
+            "wertyuioiurtyui",
+            "wertyuioiurtyui",
+            "qwertyuiop",
+            "zxcvbnm,",
+            "zxcvbnm,",
+            "zxcvbnm,",
+            "zxcvbnm,",
+            "zxcvbnm,",
+            "zxcvbnm,",
+            "qwefgbnkjhgfdsdfghjkhgfdghjksdfghjk",
+            "qwefgbnkjhgfdsdfghjkhgfdghjksdfghjk",
+            "qwefgbnkjhgfdsdfghjkhgfdghjksdfghjk",
+            "2"
+        ],
+        "ratings": 7,
+        "stars": {
+            "star1": 1,
+            "star2": 9,
+            "star3": 9,
+            "star4": 5
+        }
+    },
+    {
+        "name": "east west college",
+        "location": {
+            "country": "India",
+            "state": {
+                "code": "KA",
+                "name": "Karnataka"
+            },
+            "city": "Bangalore",
+            "address": "wunrf23094fj2349fj2934"
+        },
+        "comments": [
+            "1234567890",
+            "lkjhgfdsa",
+            "lkjhgfdsa",
+            "wertyuioiurtyui",
+            "wertyuioiurtyui",
+            "wertyuioiurtyui",
+            "qwertyuiop",
+            "zxcvbnm,",
+            "zxcvbnm,",
+            "zxcvbnm,",
+            "zxcvbnm,",
+            "zxcvbnm,",
+            "zxcvbnm,",
+            "qwefgbnkjhgfdsdfghjkhgfdghjksdfghjk",
+            "qwefgbnkjhgfdsdfghjkhgfdghjksdfghjk",
+            "qwefgbnkjhgfdsdfghjkhgfdghjksdfghjk",
+            "2"
+        ],
+        "ratings": 7,
+        "stars": {
+            "star1": 1,
+            "star2": 9,
+            "star3": 9,
+            "star4": 5
+        }
+    },
+    {
+        "name": "east west college",
+        "location": {
+            "country": "India",
+            "state": {
+                "code": "LD",
+                "name": "Lakshadweep"
+            },
+            "city": "Bangalore",
+            "address": "wunrf23094fj2349fj2934"
+        },
+        "comments": [
+            "1234567890",
+            "lkjhgfdsa",
+            "lkjhgfdsa",
+            "wertyuioiurtyui",
+            "wertyuioiurtyui",
+            "wertyuioiurtyui",
+            "qwertyuiop",
+            "zxcvbnm,",
+            "zxcvbnm,",
+            "zxcvbnm,",
+            "zxcvbnm,",
+            "zxcvbnm,",
+            "zxcvbnm,",
+            "qwefgbnkjhgfdsdfghjkhgfdghjksdfghjk",
+            "qwefgbnkjhgfdsdfghjkhgfdghjksdfghjk",
+            "qwefgbnkjhgfdsdfghjkhgfdghjksdfghjk",
+            "2"
+        ],
+        "ratings": 7,
+        "stars": {
+            "star1": 1,
+            "star2": 9,
+            "star3": 9,
+            "star4": 5
+        }
     }
-}]
+]
