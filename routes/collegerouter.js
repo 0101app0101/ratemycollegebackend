@@ -2,8 +2,6 @@ const express = require('express')
 const router = express.Router()
 const College = require('../model/college')
 
-
-
 //get all colleges
 router.get('/', async (req,res) => {
    try{
@@ -28,7 +26,7 @@ router.get('/:id', async (req,res) => {
     }
  })
 
- //add new college
+//add new college
 router.post('/createcollege', async (req,res)=> {
 
         const college = new College({

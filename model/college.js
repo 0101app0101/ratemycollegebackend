@@ -1,11 +1,19 @@
 const mongoose = require('mongoose')
 
+const state = {
+    code:{
+        type:String
+    },
+    name: {
+        type:String
+    }
+}
 const location = {
     country:{
         type:String
     },
     state:{
-        type:String
+        type:state
     },
     city:{
         type:String
@@ -28,6 +36,7 @@ const stars = {
         type:Number
     }
 }
+
 const college = new mongoose.Schema({
             
     id: {
